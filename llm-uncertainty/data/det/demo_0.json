@@ -1,0 +1,42 @@
+{
+    "objects_xyz": [
+        [
+            1.0119115163426762,
+            0.04988672025961422,
+            0.82
+        ],
+        [
+            0.9535481805901102,
+            -0.237059144786264,
+            0.82
+        ],
+        [
+            0.9281271281774758,
+            -0.0837396599989099,
+            0.82
+        ],
+        [
+            0.9109748339821183,
+            0.230179104231586,
+            0.82
+        ]
+    ],
+    "object_name": [
+        " apple",
+        " pepsi can",
+        " pepsi can",
+        " monster can"
+    ],
+    "person_name": [
+        " person wearing green shirt",
+        " person wearing black shirt",
+        " person wearing black shirt",
+        " person wearing gray shirt"
+    ],
+    "person_data": [
+        1,
+        0,
+        2,
+        3
+    ]
+}

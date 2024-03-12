@@ -1,0 +1,42 @@
+{
+    "objects_xyz": [
+        [
+            0.9575440482784906,
+            0.04190502392574089,
+            0.82
+        ],
+        [
+            0.873674033562143,
+            0.1790527466260979,
+            0.82
+        ],
+        [
+            0.8977429254094192,
+            -0.3375416683633657,
+            0.82
+        ],
+        [
+            0.9247772442339638,
+            -0.15196731337804986,
+            0.82
+        ]
+    ],
+    "object_name": [
+        " monster can",
+        " monster can",
+        " orange",
+        " monster can"
+    ],
+    "person_name": [
+        "person wearing green shirt",
+        "person wearing black shirt",
+        "person wearing black shirt",
+        "person wearing blue shirt"
+    ],
+    "person_data": [
+        3,
+        1,
+        0,
+        2
+    ]
+}

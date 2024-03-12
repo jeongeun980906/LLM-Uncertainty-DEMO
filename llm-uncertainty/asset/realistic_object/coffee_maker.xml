@@ -1,0 +1,77 @@
+<mujoco model="coffee_maker">
+  <asset>
+    <texture type="2d" name="coffee_maker" file="coffee_maker.png"/>
+    <material name="coffee_maker_mat" texture="coffee_maker" specular="0.5" shininess="0.5"/>
+    <mesh file="coffee_maker.obj"/>
+    <mesh file="coffee_maker_collision_0.obj"/>
+    <mesh file="coffee_maker_collision_1.obj"/>
+    <mesh file="coffee_maker_collision_2.obj"/>
+    <mesh file="coffee_maker_collision_3.obj"/>
+    <mesh file="coffee_maker_collision_4.obj"/>
+    <mesh file="coffee_maker_collision_5.obj"/>
+    <mesh file="coffee_maker_collision_6.obj"/>
+    <mesh file="coffee_maker_collision_7.obj"/>
+    <mesh file="coffee_maker_collision_8.obj"/>
+    <mesh file="coffee_maker_collision_9.obj"/>
+    <mesh file="coffee_maker_collision_10.obj"/>
+    <mesh file="coffee_maker_collision_11.obj"/>
+    <mesh file="coffee_maker_collision_12.obj"/>
+    <mesh file="coffee_maker_collision_13.obj"/>
+    <mesh file="coffee_maker_collision_14.obj"/>
+    <mesh file="coffee_maker_collision_15.obj"/>
+    <mesh file="coffee_maker_collision_16.obj"/>
+    <mesh file="coffee_maker_collision_17.obj"/>
+    <mesh file="coffee_maker_collision_18.obj"/>
+    <mesh file="coffee_maker_collision_19.obj"/>
+    <mesh file="coffee_maker_collision_20.obj"/>
+    <mesh file="coffee_maker_collision_21.obj"/>
+    <mesh file="coffee_maker_collision_22.obj"/>
+    <mesh file="coffee_maker_collision_23.obj"/>
+    <mesh file="coffee_maker_collision_24.obj"/>
+    <mesh file="coffee_maker_collision_25.obj"/>
+    <mesh file="coffee_maker_collision_26.obj"/>
+    <mesh file="coffee_maker_collision_27.obj"/>
+    <mesh file="coffee_maker_collision_28.obj"/>
+    <mesh file="coffee_maker_collision_29.obj"/>
+    <mesh file="coffee_maker_collision_30.obj"/>
+    <mesh file="coffee_maker_collision_31.obj"/>
+  </asset>
+  <worldbody>
+    <body name="coffee_maker" pos="1 1 3">
+      <joint name="coffee_maker:joint" type="free"/>
+      <geom material="coffee_maker_mat" mesh="coffee_maker" class="visual"/>
+      <geom mesh="coffee_maker_collision_0" class="collision"/>
+      <geom mesh="coffee_maker_collision_1" class="collision"/>
+      <geom mesh="coffee_maker_collision_2" class="collision"/>
+      <geom mesh="coffee_maker_collision_3" class="collision"/>
+      <geom mesh="coffee_maker_collision_4" class="collision"/>
+      <geom mesh="coffee_maker_collision_5" class="collision"/>
+      <geom mesh="coffee_maker_collision_6" class="collision"/>
+      <geom mesh="coffee_maker_collision_7" class="collision"/>
+      <geom mesh="coffee_maker_collision_8" class="collision"/>
+      <geom mesh="coffee_maker_collision_9" class="collision"/>
+      <geom mesh="coffee_maker_collision_10" class="collision"/>
+      <geom mesh="coffee_maker_collision_11" class="collision"/>
+      <geom mesh="coffee_maker_collision_12" class="collision"/>
+      <geom mesh="coffee_maker_collision_13" class="collision"/>
+      <geom mesh="coffee_maker_collision_14" class="collision"/>
+      <geom mesh="coffee_maker_collision_15" class="collision"/>
+      <geom mesh="coffee_maker_collision_16" class="collision"/>
+      <geom mesh="coffee_maker_collision_17" class="collision"/>
+      <geom mesh="coffee_maker_collision_18" class="collision"/>
+      <geom mesh="coffee_maker_collision_19" class="collision"/>
+      <geom mesh="coffee_maker_collision_20" class="collision"/>
+      <geom mesh="coffee_maker_collision_21" class="collision"/>
+      <geom mesh="coffee_maker_collision_22" class="collision"/>
+      <geom mesh="coffee_maker_collision_23" class="collision"/>
+      <geom mesh="coffee_maker_collision_24" class="collision"/>
+      <geom mesh="coffee_maker_collision_25" class="collision"/>
+      <geom mesh="coffee_maker_collision_26" class="collision"/>
+      <geom mesh="coffee_maker_collision_27" class="collision"/>
+      <geom mesh="coffee_maker_collision_28" class="collision"/>
+      <geom mesh="coffee_maker_collision_29" class="collision"/>
+      <geom mesh="coffee_maker_collision_30" class="collision"/>
+      <geom mesh="coffee_maker_collision_31" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

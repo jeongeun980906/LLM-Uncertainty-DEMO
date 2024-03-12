@@ -1,0 +1,23 @@
+<mujoco model="iphone_14_pro">
+  <asset>
+    <texture type="2d" name="iphone_14_pro" file="iphone_14_pro.png"/>
+    <material name="iphone_14_pro_mat" texture="iphone_14_pro" specular="1.0" shininess="0.0"/>
+    <mesh file="iphone_14_pro.obj" scale="0.8 0.8 0.8"/>
+    <mesh file="iphone_14_pro_collision_0.obj" scale="0.8 0.8 0.8"/>
+    <mesh file="iphone_14_pro_collision_1.obj" scale="0.8 0.8 0.8"/>
+    <mesh file="iphone_14_pro_collision_2.obj" scale="0.8 0.8 0.8"/>
+    <mesh file="iphone_14_pro_collision_3.obj" scale="0.8 0.8 0.8"/>
+    <mesh file="iphone_14_pro_collision_4.obj" scale="0.8 0.8 0.8"/>
+  </asset>
+  <worldbody>
+    <body name="iphone_14_pro" pos="0.55 -0.1 0.8">
+      <joint name="iphone_14_pro:joint" type="free"/>
+      <geom material="iphone_14_pro_mat" mesh="iphone_14_pro" class="visual"/>
+      <geom mesh="iphone_14_pro_collision_0" class="collision"/>
+      <geom mesh="iphone_14_pro_collision_1" class="collision"/>
+      <geom mesh="iphone_14_pro_collision_2" class="collision"/>
+      <geom mesh="iphone_14_pro_collision_3" class="collision"/>
+      <geom mesh="iphone_14_pro_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

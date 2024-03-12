@@ -1,0 +1,23 @@
+<mujoco model="laptop">
+  <asset>
+    <texture type="2d" name="laptop" file="laptop.png"/>
+    <material name="laptop_mat" texture="laptop" specular="0.17661053333333335" shininess="0.000353436"/>
+    <mesh file="laptop.obj"/>
+    <mesh file="laptop_collision_0.obj"/>
+    <mesh file="laptop_collision_1.obj"/>
+    <mesh file="laptop_collision_2.obj"/>
+    <mesh file="laptop_collision_3.obj"/>
+    <mesh file="laptop_collision_4.obj"/>
+  </asset>
+  <worldbody>
+    <body name="laptop" pos="0.75 -0.3 0.77" euler="0 0 0.0">
+      <joint name="laptop:joint" type="free"/>
+      <geom material="laptop_mat" mesh="laptop" class="visual"/>
+      <geom mesh="laptop_collision_0" class="collision"/>
+      <geom mesh="laptop_collision_1" class="collision"/>
+      <geom mesh="laptop_collision_2" class="collision"/>
+      <geom mesh="laptop_collision_3" class="collision"/>
+      <geom mesh="laptop_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

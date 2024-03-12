@@ -1,0 +1,23 @@
+<mujoco model="starbucks_cup">
+  <asset>
+    <texture type="2d" name="starbucks_cup" file="starbucks_cup.png"/>
+    <material name="starbucks_cup_mat" texture="starbucks_cup" specular="1.0" shininess="0.0"/>
+    <mesh file="starbucks_cup.obj" scale="0.01 0.01 0.01" />
+    <mesh file="starbucks_cup_collision_0.obj" scale="0.01 0.01 0.01" />
+    <mesh file="starbucks_cup_collision_1.obj" scale="0.01 0.01 0.01" />
+    <mesh file="starbucks_cup_collision_2.obj" scale="0.01 0.01 0.01" />
+    <mesh file="starbucks_cup_collision_3.obj" scale="0.01 0.01 0.01" />
+    <mesh file="starbucks_cup_collision_4.obj" scale="0.01 0.01 0.01" />
+  </asset>
+  <worldbody>
+    <body name="starbucks_cup" pos="1 -0.5 2" euler="1.57 0 0">
+      <joint name="starbucks_cup:joint" type="free"/>
+      <geom material="starbucks_cup_mat" mesh="starbucks_cup" class="visual"/>
+      <geom mesh="starbucks_cup_collision_0" class="collision"/>
+      <geom mesh="starbucks_cup_collision_1" class="collision"/>
+      <geom mesh="starbucks_cup_collision_2" class="collision"/>
+      <geom mesh="starbucks_cup_collision_3" class="collision"/>
+      <geom mesh="starbucks_cup_collision_4" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>
